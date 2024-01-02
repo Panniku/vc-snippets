@@ -115,7 +115,6 @@
 }
 .interactive__776ee {
   background-color: var(--background-primary);
-  border-bottom: 1px solid var(--background-accent);
 }
 .interactive__776ee:hover {
   background-color: var(--background-modifier-hover);
