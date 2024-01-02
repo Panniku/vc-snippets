@@ -730,7 +730,7 @@
     opacity: 1;
     border-radius: 0;
     padding: 0;
-    border-bottom: 1px solid var(--background-accent);
+    border-bottom: 1px solid transparent;
 }
 .member_aa4760:hover {
   background-color: var(--background-modifier-hover);
