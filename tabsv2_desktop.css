@@ -285,6 +285,11 @@
   align-items: center;
   height: 100%;
 }
+
+.iconWrapper-3FqQ75 {
+  background-color: var(--background-accent);
+}
+
 .iconBadge_cc5031 {
   top: 18px;
   left: 15px;
@@ -367,6 +372,12 @@
 .chatContent__5dca8:has(.attachedBars_da3c74) .scroller__1f96e::-webkit-scrollbar-track {
   margin-bottom: 10px;
 }
+
+.scrollerSpacer__9cd32 {
+  height: 0.9em;
+}
+
+
 /*  */
 .repliedMessage_e2bf4a::before {
   border-top-left-radius: 12px;
@@ -521,7 +532,7 @@
 
 /*  */
 .form__13a2c {
-  border-top: 1px solid var(--background-secondary);
+  border-top: 1px solid transparent;
   padding-left: 0px;
   padding-right: 0px;
   margin-top: 0px;
@@ -570,7 +581,11 @@
   bottom: 0px;
   left: 0px;
   right: 0px;
+  margin-right: 15px !important;
+  border-radius: 16px;
 }
+
+
 .attachedBars_da3c74 {
   border-radius: 0px;
   margin-bottom: 8px;
@@ -865,6 +880,11 @@
   border-radius: 12px !important;
   border-bottom: none;
 }
+
+.sidebar__9e3e2 .side_b4b3f6 .item__48dda::before {
+  display: none;
+}
+
 /*  */
 .tabBarItem_ad34cc, .brand_ce3ecf  {
   border-radius: 0px !important;
@@ -1042,3 +1062,5 @@ button, input {
 #vc-experiments-warning-card {
   border-radius: 12px;
 }
+
+
