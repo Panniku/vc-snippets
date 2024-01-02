@@ -858,7 +858,7 @@
   border-radius: 0 !important;
   margin-bottom: 0px;
   background-color: var(--background-primary);
-  border-bottom: 1px solid var(--background-accent);
+  padding: 0.5em;
 }
 .sidebar__9e3e2 .side_b4b3f6 .item__48dda:hover {
   background-color: var(--background-modifier-hover);
