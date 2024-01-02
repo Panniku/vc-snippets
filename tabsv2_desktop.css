@@ -534,7 +534,6 @@
   border-top: 1px solid transparent;
   padding-left: 0px;
   padding-right: 0px;
-  margin-top: 0px;
 }
 .form__13a2c::before {
   background: var(--background-primary) !important;
@@ -584,6 +583,10 @@
   border-radius: 16px;
 }
 
+.typing__6fd1d.base__512ed {
+  top: -1.5em;
+  margin-bottom: 15px;
+}
 
 .attachedBars_da3c74 {
   border-radius: 0px;
