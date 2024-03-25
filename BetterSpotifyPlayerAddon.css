@@ -1,0 +1,32 @@
+/* This is the addon snippet for BetterSpotifyPlayer.css , which re-adds the toned background feature. */
+/* It has been removed from original due to performance issues, but i've made it as an addon incase */
+#vc-spotify-player::after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 0.4s ease-out;
+}
+#vc-spotify-player::after {
+  background: var(--vc-spotify-track-image);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2;
+  filter: blur(100px);
+  transform: scale(20);
+}
+#vc-spotify-player::after {
+  opacity: 0;
+}
+#vc-spotify-player:hover::after,
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::after {
+  opacity: 0.2;
+}
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper)::after {
+  backdrop-filter: brightness(50%);
+}
