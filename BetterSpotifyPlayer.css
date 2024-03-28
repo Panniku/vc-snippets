@@ -110,7 +110,7 @@
 #vc-spotify-song-title::before, #vc-spotify-song-title + div::before, #vc-spotify-song-title + div + div::before {
   background-color: var(--interactive-active);
 }
-#vc-spotify-player .colorStandard__5111e {
+#vc-spotify-player .colorStandard__3d599 {
   color: var(--interactive-active);
 }
 .vc-spotify-artist, .vc-spotify-album {
@@ -119,7 +119,7 @@
 #vc-spotify-player .bar_e58961 {
   background-color: color-mix(in srgb, var(--white-500), transparent 75%);
 }
-#vc-spotify-player .barFill__30e17 {
+#vc-spotify-player .barFill__1f56b {
   background-color: var(--interactive-active);
 }
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
