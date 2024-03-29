@@ -43,7 +43,7 @@
   overflow: hidden;
 }
 #vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
-  height: 300px;
+  height: 310px;
 }
 #vc-spotify-player:hover {
   height: 115px;
