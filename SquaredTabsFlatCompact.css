@@ -1911,3 +1911,7 @@ button, input {
 .chat__52833:has(.profilePanel_e2cafe) .chatContent_f087cb .scroller_e412fe::-webkit-scrollbar-track {
   margin-top: 0px;
 }
+
+.newlyAddedHighlightContainer__66f77:has(li:only-child) .newlyAddedHighlight__42344 {
+  border-radius: 0 !important;
+}
