@@ -1915,3 +1915,7 @@ button, input {
 .newlyAddedHighlightContainer__66f77:has(li:only-child) .newlyAddedHighlight__42344 {
   border-radius: 0 !important;
 }
+
+.jumpToPresentBar__69174 > button:last-child {
+  border-radius: 0 !important;
+}
