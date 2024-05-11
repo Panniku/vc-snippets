@@ -1763,7 +1763,8 @@ button, input {
 *::after,
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-track,
-button, input {
+button, input,
+#vc-spotify-player * {
   border-radius: 0px !important;
   mask: none !important;
 }
