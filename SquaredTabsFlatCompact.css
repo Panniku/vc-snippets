@@ -1764,7 +1764,7 @@ button, input {
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-track,
 button, input,
-#vc-spotify-player * {
+*:not(#vc-spotify-player *) {
   border-radius: 0px !important;
   mask: none !important;
 }
