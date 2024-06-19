@@ -104,22 +104,22 @@
 #vc-spotify-player:hover #vc-spotify-titles  {
   margin-left: -42px;
 }
-#vc-spotify-player #vc-spotify-titles .size14_b2af01 {
+#vc-spotify-player #vc-spotify-titles .size14_fb468f {
   font-size: 13px;
 }
 #vc-spotify-song-title::before, #vc-spotify-song-title + div::before, #vc-spotify-song-title + div + div::before {
   background-color: var(--interactive-active);
 }
-#vc-spotify-player .colorStandard__3d599 {
+#vc-spotify-player .colorStandard_fbc755 {
   color: var(--interactive-active);
 }
 .vc-spotify-artist, .vc-spotify-album {
   color: var(--interactive-normal)
 }
-#vc-spotify-player .bar_e58961 {
+#vc-spotify-player .bar_c7a159 {
   background-color: color-mix(in srgb, var(--white-500), transparent 75%);
 }
-#vc-spotify-player .barFill__1f56b {
+#vc-spotify-player .barFill_c7a159 {
   background-color: var(--interactive-active);
 }
 #vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
