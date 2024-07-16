@@ -1758,16 +1758,17 @@ button, input {
 
 
 /* --- Squarecord Simplified --- */
+*:not(#vc-spotify-player *, .form_a7d72e *),
 *:not(.form_a7d72e *, .spriteContainer_af14ca, .spriteContainer_af14ca .sprite_af14ca),
 *:not(.item_a0)::before,
 *::after,
 *::-webkit-scrollbar-thumb,
 *::-webkit-scrollbar-track,
-button, input,
-*:not(#vc-spotify-player *) {
+button, input {
   border-radius: 0px !important;
   mask: none !important;
 }
+
 
 .svg_c51b4e rect[style],
 .svg_c51b4e circle[style] {
@@ -1803,10 +1804,11 @@ button, input,
 .radioBar_eb92a8 svg {
   border: 2px solid white;
 }
-.radioBar_eb92a8 svg path,
+/* Commented to fix stuff */
+/* .radioBar_eb92a8 svg path,
 .radioBar_eb92a8 circle {
   display: none;
-}
+} */
 .radioBar_eb92a8 div {
   position: relative;
 }
