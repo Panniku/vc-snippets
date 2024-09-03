@@ -1758,7 +1758,7 @@ button, input {
 
 
 /* --- Squarecord Simplified --- */
-*:not(#vc-spotify-player *, .form_a7d72e *),
+*:not(#vc-spotify-player *, .channelTextArea_d0696b *),
 *:not(.channelTextArea_d0696b *, .spriteContainer_af14ca, .spriteContainer_af14ca .sprite_af14ca),
 *:not(.item_a0)::before,
 *::after,
