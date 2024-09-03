@@ -1758,8 +1758,12 @@ button, input {
 
 
 /* --- Squarecord Simplified --- */
-*:not(#vc-spotify-player *, .channelTextArea_d0696b *),
-*:not(.channelTextArea_d0696b *, .spriteContainer_af14ca, .spriteContainer_af14ca .sprite_af14ca),
+*:not(
+  #vc-spotify-player *, 
+  .channelTextArea_d0696b .sprite_d91a75,
+  .spriteContainer_af14ca, 
+  .spriteContainer_af14ca .sprite_af14ca
+  ),
 *:not(.item_a0)::before,
 *::after,
 *::-webkit-scrollbar-thumb,
@@ -1768,7 +1772,10 @@ button, input {
   border-radius: 0px !important;
   mask: none !important;
 }
-
+/* *:not(.form_a7d72e *) {
+  border-radius: 0px !important;
+  mask: none !important;
+} */
 
 .svg_c51b4e rect[style],
 .svg_c51b4e circle[style] {
