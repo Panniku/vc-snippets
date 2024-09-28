@@ -1762,7 +1762,8 @@ button, input {
   #vc-spotify-player *, 
   .channelTextArea_d0696b .sprite_d91a75,
   .spriteContainer_af14ca, 
-  .spriteContainer_af14ca .sprite_af14ca
+  .spriteContainer_af14ca .sprite_af14ca,
+  .vc-banners-everywhere-memberlist
   ),
 *:not(.item_a0)::before,
 *::after,
